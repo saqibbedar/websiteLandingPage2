@@ -113,7 +113,7 @@ img#mainImage:hover{
     padding: 10px 0px;
 }
 /* Responsive */
-@media (max-width:912px) {
+@media (max-width: 912px) {
     .container{
         /* background-image: radial-gradient(at left top, #573cb8, black 70%); */
         background-image: radial-gradient(at left top, #6a0d08, black 70%);
