@@ -118,9 +118,6 @@ img#mainImage:hover{
         /* background-image: radial-gradient(at left top, #573cb8, black 70%); */
         background-image: radial-gradient(at left top, #6a0d08, black 70%);
     }
-    #largesec{
-        background-image: radial-gradient(at right bottom, #573cb8, black 70%);
-    }
     #navbar{
         display: flex;
         position: relative;
@@ -156,8 +153,9 @@ img#mainImage:hover{
         }
         /* Change image for mobile devices */
         .imgPosition {
-            height: 93%;
+            height: 90%;
             width: 70%;
+            margin-top: -8px;
             /* background-image: url(image2.png);
             background-position: center;
             background-size: cover; */
