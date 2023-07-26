@@ -67,11 +67,13 @@ img#mainImage{
     object-fit: cover;
     height: 100%;
     width: 100%;
+    transform: scaleX(-1);
     transition: all .4s ease;
 }
 img#mainImage:hover{
     scale: 1.1;
 }
+/* Image Description */
 /* .imgDescription{
     position: absolute;
     top: 83%;
