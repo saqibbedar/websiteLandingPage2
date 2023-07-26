@@ -67,7 +67,7 @@ img#mainImage{
     object-fit: cover;
     height: 100%;
     width: 100%;
-    transform: scaleX(-1);
+/*     transform: scaleX(-1); */ Flip Image
     transition: all .4s ease;
 }
 img#mainImage:hover{
