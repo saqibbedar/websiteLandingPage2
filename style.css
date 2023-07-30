@@ -66,14 +66,13 @@ html,body{
 img#mainImage{
     object-fit: cover;
     height: 100%;
-    width: 100%;
-/* transform: scaleX(-1); Flip Image */
-    transition: all .4s ease;
+    width: 100%;
+    transition: scale .4s ease;
 }
 img#mainImage:hover{
     scale: 1.1;
 }
-/* Image Description */
+/* Add Image Description */
 /* .imgDescription{
     position: absolute;
     top: 83%;
